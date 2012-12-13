@@ -16,5 +16,9 @@ this tutorial will show you how to get raw JSON data into a database and then us
 
 
 2.  Now we are going to write a ruby script to parse this data and import it into a mySQL database
-* create a new ruby file
+ * create a new ruby file
+ * <code>
+   require 'rubygems'
+   require 'json'
+   </code>
 
